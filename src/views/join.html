@@ -9,19 +9,15 @@
     <link rel="stylesheet" href="./../style/index.css" />
   </head>
   <body>
-
     <header>
-
       <div class="topBar">
-        
         <div class="topBar__div">
           <a href="/">
             <span class="topBar__word">지금 가입하고 인기상품 100원에 받아가세요!</span>
           </a>
-          
+
           <span class="topBar__X" aria-hidden="true"><img src="./images/Icon/Cancel.png" alt="" /></span>
         </div>
-        
       </div>
       <div class="headerBox">
         <!-- 상단 우측 회원가입 | 로그인 | 고객센터 창 -->
@@ -217,167 +213,144 @@
       </div>
     </nav>
 
-
-
-
-
-  <main class="joinBody">
-    <article class="joinForm">
-      <form action="URL" method="POST">
-        <div class="joinTitle">
-          <h2 class="join__title">회원가입</h2>
-          <span class="join__noti"><sup>*</sup>필수입력사항</span>
-        </div>
-        <fieldset>
-          <legend class="a11yHidden">회원가입</legend>
-          <ul class="joinFieldset">
-            <li>
-              <label for="userID__input">아이디<sup>*</sup></label>
-              <input class="userID__input" id="userID__input" type="text" placeholder="아이디를 입력해주세요" />
-              <button class="buttonJoin">중복확인</button>
-            </li>
-            <li>
-              <label for="userPw__input">비밀번호<sup>*</sup></label>
-              <input class="userPw__input" id="userPw__input" type="password" placeholder="비밀번호를 입력해주세요" />
-            </li>
-            <li>
-              <label for="userPwcheck__input">비밀번호 확인<sup>*</sup></label>
-              <input class="userPw__input" id="userPwcheck__input" type="password" placeholder="비밀번호를 한번 더 입력해주세요" />
-            </li>
-            <li>
-              <label for="userName__input">이름<sup>*</sup></label>
+    <main class="joinBody">
+      <article class="joinForm">
+        <form action="URL" method="POST">
+          <div class="joinTitle">
+            <h2 class="join__title">회원가입</h2>
+            <span class="join__noti"><sup>*</sup>필수입력사항</span>
+          </div>
+          <fieldset>
+            <legend class="a11yHidden">회원가입</legend>
+            <ul class="joinFieldset">
+              <li>
+                <label for="userID__input">아이디<sup>*</sup></label>
+                <input class="userID__input" id="userID__input" type="text" placeholder="아이디를 입력해주세요" />
+                <button class="buttonJoin">중복확인</button>
+              </li>
+              <li>
+                <label for="userPw__input">비밀번호<sup>*</sup></label>
+                <input class="userPw__input" id="userPw__input" type="password" placeholder="비밀번호를 입력해주세요" />
+              </li>
+              <li>
+                <label for="userPwcheck__input">비밀번호 확인<sup>*</sup></label>
+                <input class="userPw__input" id="userPwcheck__input" type="password" placeholder="비밀번호를 한번 더 입력해주세요" />
+              </li>
+              <li>
+                <label for="userName__input">이름<sup>*</sup></label>
                 <input class="userName__input" id="userName__input" type="text" placeholder="이름을 한번 더 입력해주세요" />
-            </li>
-            <li>
-              <label for="userEmail__input">이메일<sup>*</sup></label>
+              </li>
+              <li>
+                <label for="userEmail__input">이메일<sup>*</sup></label>
                 <input class="userEmail__input" id="userEmail__input" type="email" placeholder="예) marketkarly@karly.com" />
-              <button class="buttonJoin">중복확인</button>
-            </li>
-            <li>
-              <label for="userTel__input">휴대폰<sup>*</sup></label>
+                <button class="buttonJoin">중복확인</button>
+              </li>
+              <li>
+                <label for="userTel__input">휴대폰<sup>*</sup></label>
                 <input class="userTel__input" id="userTel__input" type="tel" placeholder="숫자만 입력해주세요." />
-              <button class="buttonJoin">인증번호 받기</button>
-            </li>
-            <li>
-              <label for="btnAdd__search">주소<sup>*</sup></label>
-              <div class="btnAdd">
-                <button class="btnAdd__search" id="btnAdd__search">주소 검색</button>
-                <span class="join__span">배송지에 따라 상품 정보가 달라질 수 있습니다.</span>
-              </div>
-            </li>
-            <li>
-              <label for="gender">성별</label>
-              <input type="text" class="a11yHidden" id="gender"/>
-              <input class="radio__input" id="radio__inputMan" type="radio" name="chk_man" value="남자">
-              <p>남자</p>
-              <input class="radio__input" id="radio__inputWoman" type="radio" name="chk_woman" value="여자">
-              <p>여자</p>
-              <input class="radio__input" id="radio__inputSelect" type="radio" name="chk_select" value="선택안함">
-              <p>선택안함</p>
-            </li>
-            <li>
-              <label for="userDate__input">생년월일</label>
-              <input class="userDate__input" id="userDate__input" name="Date" type="date" value="2023-06-27" required/>
-            </li>
-            <li>
-              <label for="add">추가입력 사항</label>
-              <input type="text" class="a11yHidden" id="add"/>
-              <input class="radio__input" id="radio__input_invite" type="radio" name="check_ivite" value="친구초대 추천인 아이디">
-              <p>친구초대 추천인 아이디</p>
-              <input class="radio__input" id="radio__input_event" type="radio" name="check_event" value="참여 이벤트명">
-              <p>참여 이벤트명</p>
-          </ul>
-        </fieldset>
-      </form>
-    </article>
+                <button class="buttonJoin">인증번호 받기</button>
+              </li>
+              <li>
+                <label for="btnAdd__search">주소<sup>*</sup></label>
+                <div class="btnAdd">
+                  <button class="btnAdd__search" id="btnAdd__search">주소 검색</button>
+                  <span class="join__span">배송지에 따라 상품 정보가 달라질 수 있습니다.</span>
+                </div>
+              </li>
+              <li>
+                <label for="gender">성별</label>
+                <input type="text" class="a11yHidden" id="gender" />
+                <input class="radio__input" id="radio__inputMan" type="radio" name="chk_man" value="남자" />
+                <p>남자</p>
+                <input class="radio__input" id="radio__inputWoman" type="radio" name="chk_woman" value="여자" />
+                <p>여자</p>
+                <input class="radio__input" id="radio__inputSelect" type="radio" name="chk_select" value="선택안함" />
+                <p>선택안함</p>
+              </li>
+              <li>
+                <label for="userDate__input">생년월일</label>
+                <input class="userDate__input" id="userDate__input" name="Date" type="date" value="2023-06-27" required />
+              </li>
+              <li>
+                <label for="add">추가입력 사항</label>
+                <input type="text" class="a11yHidden" id="add" />
+                <input class="radio__input" id="radio__input_invite" type="radio" name="check_ivite" value="친구초대 추천인 아이디" />
+                <p>친구초대 추천인 아이디</p>
+                <input class="radio__input" id="radio__input_event" type="radio" name="check_event" value="참여 이벤트명" />
+                <p>참여 이벤트명</p>
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+      </article>
 
-    <div class="forBlock">
+      <div class="forBlock">
+        <span class="agree">
+          이용약관동의
+          <sup class="agreement__star">*</sup>
+        </span>
 
-      <span class="agree">
-        이용약관동의
-        <sup class="agreement__star">*</sup>
-      </span>
-
-
-      <ul class="agreement">
-        
-        <!-- <li class="agreement__all__list">
+        <div class="agreement">
+          <!-- <li class="agreement__all__list">
           <sup class="agreement__star">*</sup>
           <div class="agreement__all__check"></div>
           <span class="agreement__all">전체 동의합니다.</span>
         </li>
         <span class="agreement__notice">선택항목에 동의하지 않는 경우도 회원가입 및 일반적인 서비스를 이용할 수 있습니다.</span> -->
 
-        <div>
-          <li class="agreement__all__list">
-            
-            <div class="agreement__all__check"></div>
+          <ul>
+            <li class="agreement__all__list">
+              <div class="agreement__all__check"></div>
               <input id="yong0" type="checkbox" name="yong0" value="yong0" />
               <label for="yong0" class="radio">　　</label>
 
-            <span class="agreement__all">전체 동의합니다.</span>
-          </li>
-          <span class="agreement__notice">선택항목에 동의하지 않는 경우도 회원가입 및 일반적인 서비스를 이용할 수 있습니다.</span>
+              <span class="agreement__all">전체 동의합니다.</span>
+            </li>
+            <li class="agreement__notice">선택항목에 동의하지 않는 경우도 회원가입 및 일반적인 서비스를 이용할 수 있습니다.</li>
+          </ul>
 
+          <div class="agreement__list">
+            <input id="yong" type="checkbox" name="yong" value="yong" />
+            <label for="yong" class="radio">　　</label>
+            <div class="agreement__list__inside">
+              <span class="agreement__select1 agreement__select">이용약관 동의 (필수)</span>
+              <a href=""><span class="agreement__detail">약관보기 &gt;</span></a>
+            </div>
+          </div>
+
+          <div class="agreement__list">
+            <input id="yong1" type="checkbox" name="yong1" value="yong1" />
+            <label for="yong1" class="radio">　　</label>
+
+            <div class="agreement__list__inside">
+              <span class="agreement__select2 agreement__select">개인정보 수집·이용 동의 (필수)</span>
+              <a href=""><span class="agreement__detail">약관보기 &gt;</span></a>
+            </div>
+          </div>
+
+          <div class="agreement__list">
+            <input id="yong2" type="checkbox" name="yong2" value="yong2" />
+            <label for="yong2" class="radio">　　</label>
+
+            <div class="agreement__list__inside">
+              <span class="agreement__select3 agreement__select">무료배송, 할인쿠폰 등 혜택/정보 수신 동의 (선택)</span>
+              <a href=""><span class="agreement__detail">약관보기 &gt;</span></a>
+            </div>
+          </div>
+
+          <div class="agreement__list">
+            <input id="yong3" type="checkbox" name="yong3" value="yong3" />
+            <label for="yong3" class="radio">　　</label>
+
+            <div class="agreement__list__inside">
+              <span class="agreement__select4 agreement__select">본인은 만 14세 이상입니다. (필수)</span>
+              <a href="/"><span class="agreement__detail">약관보기 &gt;</span></a>
+            </div>
+          </div>
         </div>
+      </div>
+    </main>
 
-
-        <div class="agreement__list">
-          <input id="yong" type="checkbox" name="yong" value="yong"/>
-          <label for="yong" class="radio">　　</label>
-
-          <li class="agreement__list__inside">            
-            <span class="agreement__select1 agreement__select">이용약관 동의 (필수)</span>
-            <a href=""><span class="agreement__detail">약관보기 &gt;</span></a>
-          </li>
-        </div>
-
-
-        <div class="agreement__list">
-          <input id="yong1" type="checkbox" name="yong1" value="yong1"/>
-          <label for="yong1" class="radio">　　</label>
-
-          <li class="agreement__list__inside"> 
-            <span class="agreement__select2 agreement__select">개인정보 수집·이용 동의 (필수)</span>
-            <a href=""><span class="agreement__detail">약관보기 &gt;</span></a>
-          </li>
-        </div>
-
-
-        <div class="agreement__list">
-          <input id="yong2" type="checkbox" name="yong2" value="yong2"/>
-          <label for="yong2" class="radio">　　</label>
-
-          <li class="agreement__list__inside"> 
-            <span class="agreement__select3 agreement__select">무료배송, 할인쿠폰 등 혜택/정보 수신 동의 (선택)</span>
-            <a href=""><span class="agreement__detail">약관보기 &gt;</span></a>
-          </li>
-        </div>
-
-
-        <div class="agreement__list">
-          <input id="yong3" type="checkbox" name="yong3" value="yong3"/>
-          <label for="yong3" class="radio">　　</label>
-
-          <li class="agreement__list__inside"> 
-            <span class="agreement__select4 agreement__select">본인은 만 14세 이상입니다. (필수)</span>
-            <a href=""><span class="agreement__detail">약관보기 &gt;</span></a>
-          </li>
-        </div>
-
-      </ul>
-
-    </div>
-
-
-
-  </main>
-
-        
-  
-
-    
-    
     <!-- <label for="userId" class="a11yHidden">아이디</label>
     <input type="text" class="userId__input" id="userId" name="userId" placeholder="아이디를 입력해주세요" required " />
     <label for="userPassword" class="a11yHidden">비밀번호</label>
@@ -474,5 +447,5 @@
         <p class="karlyCopyright__corp">© KURLY CORP. ALL RIGHTS RESERVED</p>
       </div>
     </footer>
-
   </body>
+</html>
