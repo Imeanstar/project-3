@@ -1751,6 +1751,7 @@ main {
   justify-content: flex-start;
   align-items: stretch;
   justify-content: space-between;
+  align-items: center;
   box-sizing: content-box;
   width: 48.9375rem;
   height: 1.5rem;
@@ -1767,8 +1768,6 @@ main {
   color: #A6A6A6;
 }
 .product__sort .sort__item {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
   font-weight: 600;
 }
 .product__sort .sort__item:first-child {
@@ -1776,6 +1775,10 @@ main {
 }
 .product__sort .sort__item:last-child {
   margin-right: 0;
+}
+.product__sort a {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .bestProduct {
@@ -1824,6 +1827,9 @@ main {
 }
 .product__list__info dt {
   line-height: 160%;
+}
+.product__list__info dd:not([class]) {
+  font-size: 0.75rem;
 }
 
 .best__product__price {

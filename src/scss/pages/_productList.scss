@@ -129,6 +129,7 @@
 .product__sort {
   @include flexbox;
   justify-content: space-between;
+  align-items: center;
   box-sizing: content-box;
   width: rem(783px);
   height: rem(24px);
@@ -143,7 +144,7 @@
     color: $light-gray;
   }
   .sort__item {
-    @include marginX(8px);
+
     font-weight: 600;
   }
   .sort__item:first-child {
@@ -152,7 +153,11 @@
   .sort__item:last-child {
     margin-right: 0;
   }
+  a {
+    @include marginX(8px);
+  }
 }
+
 
 // !제품이미지
 .bestProduct {
@@ -199,6 +204,9 @@
   }
   dt {
     line-height: 160%;
+  }
+  dd:not([class]) {
+    font-size: rem(12px);
   }
 }
 .best__product__price {
