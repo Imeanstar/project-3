@@ -19,11 +19,11 @@
   > 장현주 : footer , aside badge , 상품 리스트 페이지  
   > 송영은 : 스크럼 마스터 , login , cart , 리드미 통합
 
-    <img src="./src/images/karly_main.png" width="300" height="">
-    <img src="./src/images/karly_list.png" width="300" height="">
-    <img src="./src/images/karly_join.png" width="300" height="">
-    <img src="./src/images/karly_login.png" width="300" height="">
-    <img src="./src/images/karly_cart.png" width="300" height="">
+    <img src="./src/images/karly_main.png" width="500" height="">
+    <img src="./src/images/karly_list.png" width="500" height="">
+    <img src="./src/images/karly_join.png" width="500" height="">
+    <img src="./src/images/karly_login.png" width="500" height="">
+    <img src="./src/images/karly_cart.png" width="500" height="">
 
 </br></br>
 
